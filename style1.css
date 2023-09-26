@@ -1,0 +1,41 @@
+/* Add your custom CSS styles here */
+
+/* Style the logo */
+.navbar-brand img {
+    max-height: 30px; /* Adjust the height as needed */
+}
+
+/* Style the navbar background and links */
+.navbar {
+    background-color: #333; /* Change to your preferred background color */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Change link text color */
+    padding: 10px 20px; /* Adjust link padding */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #555; /* Change link hover background color */
+    border-radius: 5px; /* Add border radius on hover */
+}
+
+/* Center-align the navigation links */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Adjust spacing between navbar and page content */
+body {
+    padding-top: 70px; /* Adjust as needed based on your navbar height */
+}
+
+/* Style the active link */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold; /* Change font-weight for active link */
+}
+
+/* Add a border to the bottom of the navbar */
+.navbar {
+    border-bottom: 2px solid #fff; /* Adjust the border style and color as needed */
+}
